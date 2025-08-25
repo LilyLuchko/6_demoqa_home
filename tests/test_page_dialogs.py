@@ -1,5 +1,7 @@
 from pages.modal_dialogs import ModalDialogs
 from pages.elements_page import ElementsPage
+
+
 def test_modal_elements(browser):
     modal_elements = ModalDialogs(browser)
     modal_elements.visit()
