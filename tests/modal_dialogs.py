@@ -1,6 +1,7 @@
 from pages.base_page import BasePage
 from components.components import WebElement
-# import time
+
+
 class ModalDialogs(BasePage):
     def __init__(self,driver): #,text_footer,text_center
         self.driver = driver
